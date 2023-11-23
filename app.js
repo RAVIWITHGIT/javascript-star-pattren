@@ -349,5 +349,75 @@
 
 
 
+/* ----------------------------------- Q10. Diamond Pattern in Javascript
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
 
+*/
+
+// --------- MY SOLUTION
+
+// let range = 5
+// let star = ''
+// for(let i = 1; i<range;i++){
+//     for (let j = range; j >i ; j--) {
+//         star +=' '
+        
+//     }
+//     for (let k = 0; k <2*i-1 ; k++) {
+//         // const element = array[k];
+//         star +="*"
+        
+//     }
+//     star +='\n'
+// }
+
+// for(let i = 1; i<=range; i++){
+//     for(let k = 1; k<i; k++){
+//         star += " "
+//     }
+//     for(let j =2*range-i; j>=i; j--){
+//         star += "*"
+
+//     }
+//     star +="\n"
+// }
+// console.log(star)
+
+//------------ WEBSITE SOLUTION
+
+// let n = 5;
+// let string = "";
+// // Upside pyramid
+// for (let i = 1; i <= n; i++) {
+//   // printing spaces
+//   for (let j = n; j > i; j--) {
+//     string += " ";
+//   }
+//   // printing star
+//   for (let k = 0; k < i * 2 - 1; k++) {
+//     string += "*";
+//   }
+//   string += "\n";
+// }
+
+// for (let i = 1; i <= n - 1; i++) {
+//     // printing spaces
+//     for (let j = 0; j < i; j++) {
+//       string += " ";
+//     }
+//     // printing star
+//     for (let k = (n - i) * 2 - 1; k > 0; k--) {
+//       string += "*";
+//     }
+//     string += "\n";
+//   }
+//   console.log(string);
 
