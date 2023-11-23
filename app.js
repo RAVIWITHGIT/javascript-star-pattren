@@ -421,3 +421,70 @@
 //   }
 //   console.log(string);
 
+
+/* ----------------------------------- Q11. Hollow Diamond Pattern
+    *
+   * *
+  *   *
+ *     *
+*       *
+ *     *
+  *   *
+   * *
+    *
+
+*/
+
+// --------- MY SOLUTION 
+
+// let range = 5
+// let star = ''
+// for(let i = 1; i<range;i++){
+//     for (let j = range; j >i ; j--) {
+//         star +=' '
+        
+//     }
+//     for (let k = 0; k <2*i-1 ; k++) {
+//         // const element = array[k];
+//         if(i==1){
+//             star +="*"
+//         }
+//         else{
+//             if(k == 0 || k == 2*i-2){
+//                 star +="*"
+
+//             }else{
+//                 star +=" "
+
+//             }
+//         }
+        
+//     }
+//     star +='\n'
+// }
+
+// for(let i = 1; i<=range; i++){
+//     for(let k = 1; k<i; k++){
+//         star += " "
+//     }
+//     for(let j =2*range-i; j>=i; j--){
+//         if(i==range){
+//             star += "*"
+
+//         }
+//         else{
+//             if(j==2*range-i || j==i){
+//                 star += "*"
+
+//             }
+//             else{
+//                 star += " "
+
+//             }
+//         }
+
+//     }
+//     star +="\n"
+// }
+
+// console.log(star)
