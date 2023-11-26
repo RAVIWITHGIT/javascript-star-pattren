@@ -488,3 +488,46 @@
 // }
 
 // console.log(star)
+
+/*---------------------------------Q12. Hourglass Star Pattern
+*********
+ *******
+  *****
+   ***
+    *
+   ***
+  *****
+ *******
+*********
+
+*/
+// let range = 5
+// let str = ''
+
+// for (let i = 1; i <= range; i++) {
+//     for (let k = 0; k < i; k++) {
+//         str+=' '
+        
+//     }
+//     for (let j = 2*range-i; j >= i; j--) {
+//         str+= '*'
+        
+//     }
+//     str+='\n'
+    
+// }
+
+// for (let i = 1; i <= range-1; i++) {
+//     for (let j = range-1; j >= i; j--) {
+//         str+=' '
+
+        
+//     }
+//     for (let k = 0; k < 2*(i+1)-1; k++) {
+//         str+='*'
+        
+//     }
+//     str+='\n'
+    
+// }
+// console.log(str)
