@@ -564,3 +564,46 @@
     
 // }
 // console.log(str)
+
+
+/*---------------------------------Q14. Left Pascal Star Pattern
+    *
+   **
+  ***
+ ****
+*****
+ ****
+  ***
+   **
+    *
+
+// */
+// let range = 5
+// let str = ''
+// for (let i = 1; i <= range; i++) {
+//     for (let j = range-i; j>0; j--) {
+//         str+=' '
+        
+//     }
+//     for (let k = 1; k <i+1; k++) {
+//         str+='*'
+        
+//     }
+//     str+='\n'
+    
+// }
+
+// for (let i = 1; i <= range-1; i++) {
+//     for (let j = 1; j <= i; j++) {
+//         str+=' '
+        
+//     }
+//     for (let k = range-i; k > 0; k--) {
+//         str+='*'
+        
+//     }
+//     str+='\n'
+
+    
+// }
+// console.log(str)
