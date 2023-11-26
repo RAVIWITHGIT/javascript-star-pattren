@@ -531,3 +531,36 @@
     
 // }
 // console.log(str)
+
+/*---------------------------------Q13. Right Pascal Star Pattern
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+
+*/
+// let range = 5
+// let str = ''
+// for (let i = 1; i <= range; i++) {
+//     for (let j = 1; j <i+1 ; j++) {
+//         str+='*'
+        
+//     }
+//     str+='\n'
+
+    
+// }
+// for (let i = 1; i < range; i++) {
+//     for (let j = range-1; j >=i; j--) {
+//         str+='*'
+        
+//     }
+//     str+='\n'
+    
+// }
+// console.log(str)
